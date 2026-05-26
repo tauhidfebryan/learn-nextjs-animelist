@@ -1,6 +1,6 @@
 const AnimeList = ({ api }) => {
     return (
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-4 gap-4 px-4">
             {api.data?.map((anime) => (
                 <div key={anime.mal_id} className="">
                     {/* Anime Image */}
